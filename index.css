@@ -1,0 +1,61 @@
+.imagen-fondo {
+    position: relative;
+    height: 500px;
+    background: url('img/edificio.png') center/cover no-repeat; 
+    color: #fff; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.capa-oscura {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.contenido-imagen {
+    position: relative;
+    z-index: 1; 
+    padding: 20px;
+}
+
+
+/* Agrega estilos para la nueva sección */
+.nueva-seccion {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8f9fa; /* Color de fondo */
+  }
+  
+  .nueva-seccion h2 {
+    color: #3498db; /* Color del encabezado */
+  }
+  
+  .nueva-seccion img {
+    width: 100%;
+    max-width: 200px; /* Tamaño máximo de la imagen */
+    border-radius: 50%; /* Borde redondeado */
+    margin-bottom: 20px;
+  }
+  
+  .nueva-seccion p {
+    font-size: 18px; /* Tamaño del texto */
+    line-height: 1.6; /* Altura de línea para mejorar la legibilidad */
+    color: #333; /* Color del texto principal */
+  }
+  
+  .nueva-seccion a {
+    color: #3498db; /* Color del enlace */
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .nueva-seccion a:hover {
+    text-decoration: underline; /* Subrayar al pasar el ratón */
+  }
+  

@@ -1,0 +1,70 @@
+
+
+.page-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.page-content h1 {
+    color: #3498db;
+}
+
+.page-content p {
+    line-height: 1.6;
+}
+
+.page-content h2 {
+    color: #27ae60;
+    margin-top: 20px;
+}
+
+.page-content ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.page-content h2 {
+    color: #e74c3c;
+}
+
+.page-content ul {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+
+
+.imagen-fondo {
+    position: relative;
+    height: 300px;
+    background: url('img/team.png') center/cover no-repeat; 
+    color: #fff; 
+    text-align: center;
+}
+
+.capa-oscura {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.contenido-imagen {
+    position: relative;
+    z-index: 1; 
+    padding: 20px;
+}
+
+.modal-content {
+    background-color: #f8f9fa; /* Fondo del modal */
+}
+
+.modal-title {
+    color: #3498db; /* Color del título del modal */
+}
+
+.modal-body {
+    color: #333; /* Color del texto del cuerpo del modal */
+}

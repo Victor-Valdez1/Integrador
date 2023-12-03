@@ -1,0 +1,48 @@
+/* Estilos específicos para la página contactanos.html */
+
+.page-content {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.page-content h1 {
+    color: #3498db;
+}
+
+.page-content p {
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.footer h4 {
+    color: #3498db;
+}
+
+.footer p {
+    margin-bottom: 0;
+}

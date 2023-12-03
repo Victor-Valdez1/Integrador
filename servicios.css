@@ -1,0 +1,24 @@
+/* Estilos específicos para la página servicios.html */
+
+.page-content {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.servicio {
+    margin-bottom: 20px;
+}
+
+.servicio-box {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.servicio img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
